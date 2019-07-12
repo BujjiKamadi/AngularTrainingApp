@@ -1,0 +1,19 @@
+<p-table>
+    
+</p-table>
+<div class="ui-g">
+    <div class="ui-g-6">
+        <h4>Reactive Form Data printed within child component</h4>
+        
+        <pre *ngIf="reactiveDisplayJsonStatus">
+                    {{ reactiveFormGroup.value | json }}
+            </pre>
+    </div>
+    <div class="ui-g-6">
+        <h4>Template Driven Form Data printed within child component</h4>
+        <pre *ngIf="tempateDrivenDisplayJsonStatus">
+                    {{ templateDrivenFormData.value | json }}
+            </pre>
+    </div>
+</div>
+<p-toast></p-toast>

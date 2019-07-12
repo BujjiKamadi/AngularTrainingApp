@@ -1,0 +1,15 @@
+
+.ui-g{
+    margin:20px;
+}
+:host ::ng-deep .ui-inputgroup .ui-inputtext .has-error{    
+    background-color: #FFBABA;
+}
+.has-error{    
+    // background-color: #FFBABA;
+    border:1px solid #FFBABA
+}
+.errMsg{
+    color: red;
+}
+h1{ text-align: center;}
